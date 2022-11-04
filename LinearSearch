@@ -1,0 +1,8 @@
+num=int(input("Enter Number to be searched: "))
+print("You Have Entered: ",num)
+array=[20,35,36,123,135,356,357,673,786,798]
+for x in range(0,len(array),1):
+  if num != array[x]:
+      continue
+  else:
+    print("Value is In: ",x)
